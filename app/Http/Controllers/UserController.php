@@ -28,8 +28,8 @@ class UserController extends Controller
     }
     function getArray()
     {
-        $name="anil";
-        $users = ['peter','otaku','harry'];
+        $name="zack";
+        $users = ['peter','aizen','harry'];
         return view ('displayArray',["name"=>$name, "users"=>$users]);
 
     }
